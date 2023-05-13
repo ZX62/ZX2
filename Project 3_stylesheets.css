@@ -1,0 +1,186 @@
+/*PROJECTS 3 STARTS*/
+/* NAV BAR*/
+* {
+    box-sizing:border-box ;
+    padding: 0;
+    margin: 0;
+    }
+  
+    body{
+      font-family: 'Gilda Display', serif;}
+  
+    nav{
+      background-color: #FFFFFF;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between;
+      color: black; }
+  
+    div{
+      list-style-type: none;}
+  
+    .nav-left a{
+      margin-right: auto;
+      color:black;
+      text-decoration:none;
+    }
+  
+     .nav-right a{
+      color:black;
+      text-decoration:none;
+      display: flex;
+    }
+  
+    .nav-left:hover{
+      text-decoration: underline;
+      text-decoration-color: red;
+      color: red;
+    }
+  
+    .nav-right:hover{
+      text-decoration: underline;
+      text-decoration-color: red;
+      color: red;
+    }
+  
+    .nav-left li{
+     font-size: 28px;
+     padding: 20px 50px;
+    }
+  
+    .nav-right li{
+     font-size: 28px;
+     padding: 20px 50px;
+    }
+  
+    .meni li a{
+      display: block;
+    }
+  
+    .nav-left{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: left;
+      align-items: center;
+    }
+  
+    .nav-right{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: right;
+      align-items:center;
+    }
+  
+    /* NAV BAR* END/
+
+/* DIV BOX Color Start */
+#BoxCategory_1 {
+    background-color: #EBF7F7;
+}
+
+#BoxCategory_2 {
+    background-color: #FFFFFF;
+}
+
+#BoxCategory_3 {
+    background-color: #FFFFFF;
+}
+
+#BoxCategory_4 {
+    background-color: #FFFFFF;
+}
+
+#BoxCategory_5 {
+    background-color: #FFFFFF;
+}
+
+/* DIV BOX Color End */
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: 20px;
+    padding-top: 50px;
+    width: 85%;
+  }
+
+  
+  .header{
+    font-family:'Gilda Display', serif;
+    font-size: 100px;
+    padding-left: 100px;
+    margin-top: 23%;
+    letter-spacing: 3px;
+    text-align: left;
+    color:#46697B;
+  }
+  
+  .header1{
+  font-family:'Gilda Display', serif;
+    font-size: 35px;
+    padding-left: 130px;
+    margin-top: 1%;
+    letter-spacing: 2px;
+    color:#626262;
+  }
+  
+  .header2{
+    font-family:'Gilda Display', serif;
+      font-size: 35px;
+      padding-left: 120px;
+      margin-top: 2%;
+      letter-spacing: 1px;
+      color:#626262;
+    }
+
+    .center1{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top:60px;
+        width: 90%;
+      }
+
+      .content{
+        font-family:'Gilda Display', serif;
+        font-size: 50px;
+        padding-left: 150px;
+        margin-top: 3%;
+        letter-spacing: 1px;
+        text-align: left;
+      }
+
+      .center2{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top:60px;
+        width: 90%;
+      }
+
+      .content2{
+        font-family:'Gilda Display', serif;
+        font-size: 50px;
+        padding-left: 150px;
+        margin-top: 3%;
+        letter-spacing: 1px;
+        text-align: left;
+      }
+    
+      .center3{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top:60px;
+        width: 90%;
+      }
+    
+      .content3{
+        font-family:'Gilda Display', serif;
+        font-size: 50px;
+        padding-left: 150px;
+        margin-top: 3%;
+        letter-spacing: 1px;
+        text-align: left;
+      }
+
+      /*PROJECTS 3 END*/

@@ -1,0 +1,192 @@
+/* PROJECTS PAGE* STARTS/
+/* NAV BAR*/
+* {
+  box-sizing:border-box ;
+  padding: 0;
+  margin: 0;
+  }
+
+  body{
+    font-family: 'Gilda Display', serif;}
+
+  nav{
+    background-color: #FFFFFF;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    color: black; }
+
+  div{
+    list-style-type: none;}
+
+  .nav-left a{
+    margin-right: auto;
+    color:black;
+    text-decoration:none;
+  }
+
+   .nav-right a{
+    color:black;
+    text-decoration:none;
+    display: flex;
+  }
+
+  .nav-left:hover{
+    text-decoration: underline;
+    text-decoration-color: red;
+    color: red;
+  }
+
+  .nav-right:hover{
+    text-decoration: underline;
+    text-decoration-color: red;
+    color: red;
+  }
+
+  .nav-left li{
+   font-size: 28px;
+   padding: 20px 50px;
+  }
+
+  .nav-right li{
+   font-size: 28px;
+   padding: 20px 50px;
+  }
+
+  .meni li a{
+    display: block;
+  }
+
+  .nav-left{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+  }
+
+  .nav-right{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items:center;
+  }
+
+  /* NAV BAR* END/
+
+  /*DIY BOX*/
+  /* DIV BOX Color Start */
+
+  #BoxCategory_1 {
+    background-color: #F3F8F7;
+}
+
+#BoxCategory_2 {
+    background-color: #F3F8F7;
+}
+
+#BoxCategory_3 {
+    background-color: #F3F8F7;
+}
+
+#BoxCategory_4 {
+    background-color: #F3F8F7;
+}
+
+#BoxCategory_5 {
+    background-color: #F3F8F7;
+}
+
+/* DIV BOX Color End */
+
+/*CONTENT 1 STARTS*/
+.content{
+  width:1200px;
+  height: auto;
+  margin:auto;
+  color:#526572;
+  position:relative;
+}
+
+.header{
+  font-family:'Gilda Display', serif;
+  font-size: 100px;
+  padding-left: 100px;
+  margin-top: 10%;
+  letter-spacing: 3px;
+  text-align: left;
+}
+
+.content .par{
+  font-family:'Gilda Display', serif;
+  font-size: 35px;
+  padding-left: 70px;
+  margin-top: 3%;
+  letter-spacing: 3px;
+  text-align: left;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.button1 {
+  background-color: #D2DFDE;
+  border: none;
+  color: black;
+  height: 78px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100px;
+  font-size: 25px;
+}
+
+.button1:hover{
+  color: #FFFFFF;
+  transition: 2s;
+}
+
+.button2 {
+  background-color: #D2DFDE;
+  border: none;
+  color: black;
+  height: 78px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100px;
+  font-size: 25px;
+}
+
+.button2:hover{
+  color: #FFFFFF;
+  transition: 2s;
+}
+
+.button3 {
+  background-color: #D2DFDE;
+  border: none;
+  color: black;
+  height: 78px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100px;
+  font-size: 25px;
+}
+
+.button3:hover{
+  color: #FFFFFF;
+  transition: 2s;
+}
+
+/*PROJECTS PAGE END*/
